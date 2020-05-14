@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+    color: black;
+}
+#allInfo{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#input{
+    text-align: center;
+}
+
+#placeInput{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #CC0000;  
+}
+
+input[type=text] {
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 80%;
+}
+
+#submit{
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#info{
+    margin-top: 10px;
+    text-align: center;  
+}
+
+#temp{
+    font-size: xxx-large;
+}
+
+#table{
+    height: fit-content;
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    background-color: #457b9d;
+}

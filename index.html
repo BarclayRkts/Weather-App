@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id='allInfo' class="container" >
+        
+        <div id="table">
+
+            <div id="input">
+                <input type='text' id="placeInput" placeholder="Enter the city">
+                <button class="btn btn-danger" type="submit" id="submit">Submit</button>
+            </div>
+            <div id="info">
+            <p>Weather in <span id="country"></span></p>
+            
+            <p><span id="temp"></span>°F</p>
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Wind</th>
+                    <th scope="col"><span id="wind"></span</th>
+                </tr>
+                </thead>
+                <thead>
+                    <tr>
+                    <th scope="col">Cloudness</th>
+                    <th scope="col"><span id="cloud"></span</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                    <th scope="col">Description</th>
+                    <th scope="col"><span id="description"></span></th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                    <th scope="col">Humidity</th>
+                    <th scope="col"><span id="humidity"></span></th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                    <th scope="col">Geo Coordinates </th>
+                    <th scope="col"><span id="coordinates"></span</th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                    <th scope="col">Sunrise</th>
+                    <th scope="col"><span id="sunrise"></th>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr>
+                    <th scope="col">Sunset</th>
+                    <th scope="col"><span id="sunset"></th>
+                    </tr>
+                </thead>
+                
+            </table>
+        </div>
+    </div>      
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
