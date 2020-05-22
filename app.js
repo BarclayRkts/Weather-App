@@ -4,7 +4,7 @@ let btn = document.getElementById('submit');
 
 btn.addEventListener('click', () =>{
     fetch(
-        'http://api.openweathermap.org/data/2.5/weather?q=' + placeInput.value + 
+        'https://api.openweathermap.org/data/2.5/weather?q=' + placeInput.value + 
         '&units=imperial&appid=0509a85eeb71ef944d4a6d16ac70b2bf'
     )
     .then(res => res.json())
